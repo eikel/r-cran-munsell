@@ -1,0 +1,13 @@
+Source: r-cran-munsell
+Section: gnu-r
+Priority: optional
+Maintainer: Benjamin Eikel <debian@eikel.org>
+Build-Depends: debhelper (>= 8.0.0), cdbs, r-base-dev (>= 2.10.0), r-cran-colorspace
+Standards-Version: 3.9.2
+Homepage: http://cran.r-project.org/web/packages/munsell/index.html
+
+Package: r-cran-munsell
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${R:Depends}, r-cran-colorspace
+Description: Munsell colour system
+ Functions for exploring and using the Munsell colour system
